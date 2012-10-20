@@ -1,4 +1,4 @@
-import com.twilio.sdk.resource.instance.Sms;
+import com.twilio.sdk.verbs.Sms;
 import com.twilio.sdk.verbs.TwiMLException;
 import com.twilio.sdk.verbs.TwiMLResponse;
 
@@ -24,4 +24,4 @@ public class ChatterServlet extends HttpServlet {
 	        response.getWriter().print(twiml.toXML());
 	    }
 	}
-}
+
