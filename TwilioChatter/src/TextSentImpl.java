@@ -23,8 +23,8 @@ public class TextSentImpl {
 	 
 	        SmsFactory smsFactory = account.getSmsFactory();
 	        Map<String, String> smsParams = new HashMap<String, String>();
-	        smsParams.put("To", "+15123514250"); 
-	        smsParams.put("From", "(410) 555-6789"); // Replace with a valid phone
+	        smsParams.put("To", "+14105556789"); 
+	        smsParams.put("From", "(512) 351-4250"); // Replace with a valid phone
 	        // number in your account
 	        smsParams.put("Body", "Where's Wallace?");
 	        Sms sms = smsFactory.create(smsParams);
