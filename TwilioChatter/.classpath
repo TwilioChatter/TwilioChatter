@@ -3,5 +3,21 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/twilio-java"/>
+	<classpathentry kind="lib" path="/Users/trevorleffert/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="/Users/trevorleffert/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="javax.servlet"/>
+			<attribute name="maven.artifactId" value="servlet-api"/>
+			<attribute name="maven.version" value="2.5"/>
+			<attribute name="maven.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/trevorleffert/.m2/repository/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE.jar" sourcepath="/Users/trevorleffert/.m2/repository/org/springframework/spring-context/3.1.1.RELEASE/spring-context-3.1.1.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-context"/>
+			<attribute name="maven.version" value="3.1.1.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

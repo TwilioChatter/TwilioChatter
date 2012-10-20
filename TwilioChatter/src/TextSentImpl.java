@@ -1,24 +1,23 @@
 	// Download the twilio-java library from http://twilio.com/docs/libraries
-	import java.util.Map;
-	import java.util.HashMap;
-	 
-	import com.twilio.sdk.resource.instance.Account;
-	import com.twilio.sdk.TwilioRestClient;
-	import com.twilio.sdk.TwilioRestException;
-	import com.twilio.sdk.resource.factory.SmsFactory;
-	import com.twilio.sdk.resource.instance.Sms;
+import com.twilio.sdk.TwilioRestClient;
+import com.twilio.sdk.TwilioRestException;
+import com.twilio.sdk.resource.factory.SmsFactory;
+import com.twilio.sdk.resource.instance.Account;
+import com.twilio.sdk.resource.instance.Sms;
+
+import java.util.HashMap;
+import java.util.Map;
 	 
 public class TextSentImpl {
 	
 	
 	 
 	    /* Find your sid and token at twilio.com/user/account */
-	    public static final String ACCOUNT_SID = "ACd977dffe0d2e11866572a21b38c7dd25";
-	    public static final String AUTH_TOKEN = "fecf2edee484f18dfcb3e59127563d98";
+	   
 	 
 	    public static void main(String[] args) throws TwilioRestException {
 	 
-	        TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
+	        TwilioRestClient client = new TwilioRestClient(MessageConstants.ACCOUNT_SID, MessageConstants.AUTH_TOKEN);
 	 
 	        Account account = client.getAccount();
 	 
